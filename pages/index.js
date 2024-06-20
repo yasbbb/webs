@@ -38,7 +38,7 @@ export default function Home() {
                 CS / Finance @ UT Dallas
               </p>
               <div className="flex justify-center mb-2 mt-2 space-x-4">
-                <Link href='https://github.com/yashbbb009' target="_blank" rel="noopener noreferrer" className='inline-flex items-center transform transition-transform hover:scale-110' passHref>
+                <Link href='https://github.com/yasbbb' target="_blank" rel="noopener noreferrer" className='inline-flex items-center transform transition-transform hover:scale-110' passHref>
                   <div>
                     <Image src={github_logo} height={24} width={24} alt="Github" />
                   </div>
