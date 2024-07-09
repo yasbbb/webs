@@ -33,7 +33,7 @@ const experiences = [
   {
     image: choice,
     alt: "Choice Hotel",
-    title: "Software Engineering Intern",
+    title: "Software Engineer Intern",
     company: "Choice Hotels International, Inc.",
     location: "Phoenix, AZ",
   },
