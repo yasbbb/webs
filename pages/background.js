@@ -5,10 +5,18 @@ import utd from "./resources/utd.jpg";
 import scouts from "./resources/scouts.jpg";
 import choice from "./resources/choice.jpg";
 import comerica from "./resources/comerica.jpg";
-import stanford from "./resources/stanford.png";
+import stanford from "./resources/stanford.jpg";
 import fech from "./resources/fech.jpg";
+import tfg from "./resources/tfg.jpg"
 
 const experiences = [
+  {
+    image: tfg,
+    alt: "TFG",
+    title: "Software Engineer Intern",
+    company: "Tech For Good Inc",
+    location: "Boston, MA",
+  },
   {
     image: fech,
     alt: "FechAI",
@@ -34,7 +42,7 @@ const experiences = [
     image: choice,
     alt: "Choice Hotel",
     title: "Software Engineer Intern",
-    company: "Choice Hotels International, Inc.",
+    company: "Choice Hotels International",
     location: "Phoenix, AZ",
   },
 ];
