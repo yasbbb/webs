@@ -6,23 +6,23 @@ import scouts from "./resources/scouts.jpg";
 import choice from "./resources/choice.jpg";
 import comerica from "./resources/comerica.jpg";
 import stanford from "./resources/stanford.jpg";
-import fech from "./resources/fech.jpg";
+import MLH from "./resources/MLH.jpg";
 import tfg from "./resources/tfg.jpg"
 
 const experiences = [
+  {
+    image: MLH,
+    alt: "MLH",
+    title: "Software Engineer Intern",
+    company: "Major League Hacking",
+    location: "Sept 2024 - Dec 2024 | New York, NY",
+  },
   {
     image: tfg,
     alt: "TFG",
     title: "Software Engineer Intern",
     company: "Tech For Good Inc",
     location: "Jun 2024 - Aug 2024 | Boston, MA",
-  },
-  {
-    image: fech,
-    alt: "FechAI",
-    title: "Co-Founder & CEO",
-    company: "FechAI",
-    location: "Jan 2024 - Present | Cambridge, MA",
   },
   {
     image: stanford,
@@ -51,7 +51,7 @@ const schools = [
     {
         image: utd,
         alt: "UTD",
-        title: "B.Sc. CS + Finance Minor",
+        title: "B.S. CS / Finance ",
         organization: "University of Texas at Dallas",
         location: "Richardson, TX"
     },
