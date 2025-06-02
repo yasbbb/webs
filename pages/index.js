@@ -35,7 +35,7 @@ export default function Home() {
                 Yash Bardhan
               </h1>
               <p className="text-md font-sm text-gray-100 mt-2">
-                CS / Finance @ UT Dallas
+                SWE @ Charles Schwab
               </p>
               <div className="flex justify-center mb-2 mt-2 space-x-4">
                 <Link href='https://github.com/yasbbb' target="_blank" rel="noopener noreferrer" className='inline-flex items-center transform transition-transform hover:scale-110' passHref>
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-gray-400 text-center pt-8 pb-16 md:pb-8 md:px-8">
-              Hey there, I'm Yash Bardhan. I'm a full time CS / Finance student @ UT Dallas. {/* <Link href="https://manaflow.ai" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> */} {/*  </Link> */} My background spans from experience at <Link href="https://mlh.io/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> MLH</Link>, <Link href="https://www.stanford.edu/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref>Stanford</Link>, and more. <br /><br />
+              Hey there, I'm Yash Bardhan. I'm a Software Engineer @ <Link href="https://www.schwab.com/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> Charles Schwab</Link> out in Austin, TX. I'm also pursuing a graduate degree in computer science at the University of Texas at Austin. {/* <Link href="https://manaflow.ai" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> */} {/*  </Link> */} My background spans from experience at <Link href="https://opensource.fb.com/partnerships/major-league-hacking/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> Meta</Link>, <Link href="https://www.stanford.edu/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref>Stanford</Link>, and more. <br /><br />
 
               Interested in low level development. Take a look at what I've done and shoot me an <Link href='mailto:yash.bardhan09@gmail.com' target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> email</Link> if you have any questions. <br></br><br></br>
 

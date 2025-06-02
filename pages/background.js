@@ -6,15 +6,24 @@ import scouts from "./resources/scouts.jpg";
 import choice from "./resources/choice.jpg";
 import comerica from "./resources/comerica.jpg";
 import stanford from "./resources/stanford.jpg";
-import MLH from "./resources/MLH.jpg";
+import Meta from "./resources/meta.jpg";
 import tfg from "./resources/tfg.jpg"
+import ut from "./resources/ut.jpg";
+import schwab from "./resources/schwab.jpg";
 
 const experiences = [
   {
-    image: MLH,
-    alt: "MLH",
-    title: "Software Engineer Intern",
-    company: "Major League Hacking",
+    image: schwab,
+    alt: "Schwab",
+    title: "Software Engineer ",
+    company: "Charles Schwab",
+    location: "Jun 2025 - Present | Austin, TX",
+  },
+  {
+    image: Meta,
+    alt: "Meta",
+    title: "Software Engineer Fellow",
+    company: "Meta x Major League Hacking",
     location: "Sept 2024 - Dec 2024 | New York, NY",
   },
   {
@@ -48,6 +57,13 @@ const experiences = [
 ];
 
 const schools = [
+    {
+        image: ut,
+        alt: "UT",
+        title: "M.S. Computer Science ",
+        organization: "University of Texas at Austin",
+        location: "Austin, TX"
+    },
     {
         image: utd,
         alt: "UTD",
