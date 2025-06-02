@@ -29,7 +29,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../pages/resources/logo.svg';
+import logo from '../pages/resources/logo2.svg';
 
 export const Navbar = () => {
   const router = useRouter();
