@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Navbar } from '../components/navbar';
-import yash_pfp from './resources/yash.png';
+// import yash_pfp from './resources/yash.png';
+import profile from './resources/profile.jpg';
 import Image from 'next/image';
 import Link from "next/link";
 import github_logo from '../pages/resources/github-logo.svg';
@@ -26,7 +27,7 @@ export default function Home() {
         <div className="flex flex-col items-center w-full">
           <div className="flex flex-col items-center space-y-4 w-full max-w-screen-sm">
             <Image
-              src={yash_pfp}
+              src={profile}
               className={`object-cover ${styles.profileImage}`}
               style={{ ...styles.object, width: '100px', height: '100px' }}
               alt="Austin Wang" />
@@ -61,7 +62,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-gray-400 text-center pt-8 pb-16 md:pb-8 md:px-8">
-              Hey there, I'm Yash Bardhan. I'm a full-time software engineer @ <Link href="https://www.schwab.com/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> Charles Schwab</Link>. I'm also pursuing a graduate degree in CS at UT Austin. {/* <Link href="https://manaflow.ai" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> */} {/*  </Link> */} My background spans from experience at <Link href="https://opensource.fb.com/partnerships/major-league-hacking/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> Meta</Link>, <Link href="https://www.stanford.edu/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref>Stanford</Link>, and more. <br /><br />
+              Hey there, I'm Yash Bardhan. I'm a full-time swe @ <Link href="https://www.schwab.com/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> Charles Schwab</Link>. I'm also pursuing a graduate degree in CS at UT Austin. {/* <Link href="https://manaflow.ai" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> */} {/*  </Link> */} My background spans from experience at <Link href="https://opensource.fb.com/partnerships/major-league-hacking/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> Meta</Link>, <Link href="https://www.stanford.edu/" target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref>Stanford</Link>, and more. <br /><br />
 
               Interested in low level development. Take a look at what I've done and shoot me an <Link href='mailto:yash.bardhan09@gmail.com' target="_blank" rel="noopener noreferrer" className="underline text-gray-300 hover:text-blue-500" passHref> email</Link> if you have any questions. <br></br><br></br>
 
