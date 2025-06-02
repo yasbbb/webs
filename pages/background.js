@@ -67,7 +67,7 @@ const schools = [
     {
         image: utd,
         alt: "UTD",
-        title: "B.S. CS / Finance ",
+        title: "B.S. Computer Science / Finance ",
         organization: "University of Texas at Dallas",
         location: "Richardson, TX"
     },
